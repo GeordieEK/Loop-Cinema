@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */
+    },
+    "include": ["**/*.ts"],
+    "exclude": ["node_modules"]
+}

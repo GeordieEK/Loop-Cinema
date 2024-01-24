@@ -1,0 +1,35 @@
+.now-showing-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+}
+
+.now-showing-movies-wrapper {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, max-content));
+  grid-gap: 2em;
+  width: 95%;
+  justify-content: center;
+  padding: initial;
+}
+
+.movie-summary-wrapper {
+  padding: 5px;
+  width: 400px;
+}
+
+@media screen and (max-width: 998px) {
+  .movie-summary-wrapper {
+    width: 80vw;
+  }
+}
+
+.movie_summary_showing_li {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}

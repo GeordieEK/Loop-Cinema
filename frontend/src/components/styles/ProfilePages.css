@@ -1,0 +1,57 @@
+.orange_box_wrapper {
+  background-color: black;
+  border: 1px #f25e0d solid;
+  margin: 1em;
+  padding: 1em;
+  width: 30em;
+}
+
+.orange_box_formfield {
+  display: flex;
+  justify-content: space-between;
+}
+
+.orange_box_wrapper label {
+  font-weight: bold;
+}
+
+.error_message {
+  color: #f25e0d;
+}
+
+.signUpForm,
+.signInForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.orange_box_wrapper button {
+  background-color: #000;
+  border: 1px #f25e0d solid;
+  /* color: #F25E0D; */
+  padding: 0.5em;
+  border-radius: 0.5em;
+  margin: 0.25em;
+  font-weight: bold;
+  /* width: 4.5em; */
+  margin: 0;
+  color: #f25e0d;
+}
+
+.orange_box_wrapper button:hover:not([disabled]) {
+  /* background-color: #F25E0D;
+  color: #000; */
+  background-color: #f25e0d;
+  color: black;
+}
+
+.orange_box_wrapper button:disabled {
+  border: 1px grey solid;
+  color: grey;
+}
+
+.user_profile_button_row {
+  margin-top: 1em;
+  display: flex;
+  gap: 1em;
+}

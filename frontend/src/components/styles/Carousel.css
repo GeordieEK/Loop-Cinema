@@ -1,0 +1,58 @@
+
+button.carousellium,
+input[type='submit'].carousellium,
+input[type='reset'].carousellium {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.carousel {
+  position: relative;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.carousel #carousel-content {
+  width: 60%;
+  aspect-ratio: 16/9;
+}
+.carousel button {
+  z-index: 9999;
+  position: absolute;
+  top: 50%;
+  color: white;
+  opacity: 0.7;
+}
+.carousel #carousel-right-button {
+  right: 0;
+}
+.carousel #carousel-left-button {
+  left: 0;
+}
+.carousel #cinema-crowd {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 150px;
+  width: 100%;
+  background-repeat: repeat-x;
+  z-index: 999;
+  background-size: contain;
+}
+@media screen and (max-width: 768px) {
+  .carousel #cinema-crowd {
+    height: 80px;
+  }
+}
+.carousel .dots {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  color: white;
+  opacity: 0.6;
+}

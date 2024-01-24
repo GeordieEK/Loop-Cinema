@@ -1,0 +1,61 @@
+.editable_field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.editable_field_label {
+    color: #F25E0D;
+}
+
+.editable_field_content {
+    display: flex;
+    justify-content: left;
+    gap: 1em;
+}
+
+.editable_field_actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+.editable_field_action_cancel {
+    color: red;
+}
+
+.editable_field_action_save {
+    color: aquamarine;
+}
+
+.editable_field_action {
+    width: 2em;
+}
+
+.editable_field_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.editable_field_input {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: inherit;
+    text-decoration: none;
+    font-family: inherit;
+    color: #000;
+    width: 10em;
+}
+
+.editable_field_text {
+    padding: 10px 0;
+    font-size: 1.5em;
+    font-weight: inherit;
+    text-decoration: none;
+    font-family: inherit;
+    color: #fff;
+    width: 10em;
+}
+

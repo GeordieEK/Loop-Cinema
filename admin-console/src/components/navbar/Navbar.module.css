@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 0px;
+    background-color: #333;
+}
+
+.title {
+    color: #fff;
+}
+
+.links {
+    display: flex;
+}
+
+.link {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #ddd;
+}

@@ -1,0 +1,251 @@
+/* Bomfunk MC's Freestylin'
+   This is the base style for the site.
+*/
+
+/*  -- HEADERS ---------------------------------------------------------------------- */
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+
+h2 {
+    text-transform: uppercase;
+    max-width: 70%;
+    margin: 0.25em 0;
+}
+
+/*  -- TEXT ------------------------------------------------------------------------- */
+
+p.description {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: larger;
+}
+
+.white {
+    color: #fff;
+}
+
+/*  -- IMAGES ----------------------------------------------------------------------- */
+
+img {
+    max-width: 100%;
+}
+
+.background-image {
+    margin: 0;
+    padding: 0;
+    border: 0;;
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    opacity: 0.15;
+    transform: rotate(-20deg);
+    pointer-events: none;
+    background-position: 50% 50%;
+    top: -13em;
+    left: -4em;
+}
+
+.loop-logo {
+    width: 3em;
+}
+
+/*  -- BUTTONS ---------------------------------------------------------------------- */
+
+button {
+    background-color: #f25e0d;
+    border: 1px #000 solid;
+    color: #000;
+    padding: 0.5em;
+    margin: 0.25em;
+    font-weight: bold;
+    min-width: 4.5em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f25e0d;
+    border: 1px #f25e0d solid;   
+    color: #000;
+}
+
+button.inverted {
+    background-color: #000;
+    border: 1px #f25e0d solid;
+    color: #f25e0d;
+}
+
+button.inverted:hover {
+    background-color: #f25e0d;
+    border: 1px #000 solid;
+    color: #000;
+}
+
+button.inverted:disabled {
+    background-color: #000;
+    color: #8c4e2d;
+    border-color: #8c4e2d;
+    cursor:auto;
+  }
+
+button.subtle {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    min-width: none;
+    color: #f25e0d;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button.subtle:hover {
+    color: #fff;
+}
+
+button.contrast {
+    background-color: #99a;
+    border: 1px #fff solid;
+    color: #fff;
+}
+
+button.contrast:hover {
+    background-color: #fff;
+    border: 1px #fff solid;
+    color: #99a;
+}
+
+button.contrast-img {
+    background-color: #8c4e2d;
+    border: 1px #fff solid;
+    color: #fff;
+}
+
+button.contrast-img:hover {
+    background-color: #fff;
+    border: 1px #fff solid;
+    color: #8c4e2d;
+}
+
+button.contrast-subtle {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    min-width: 0;
+    margin-left: 0;
+    margin-right: 2em;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: #000;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button.contrast-subtle:hover {
+    color: #fff;
+}
+
+/*  -- PANELS ---------------------------------------------------------------------- */
+
+.modal {
+    width: 40em;
+    overflow: hidden;
+}
+
+.modal::backdrop {
+    background: hsl(0 0% 0% / 50%);
+}
+
+.contrast-container-img {
+    /* background-color: #99a; */
+    background-color: #8c4e2d;
+    padding: 1em;
+}
+
+.contrast-container {
+    background-color: #99a;
+    padding: 1em;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.left-full {
+    width: 100%;
+    text-align: left;
+}
+
+.right-full {
+    width: 100%;
+    text-align: right;
+}
+
+.float-right {
+    float: right;
+}
+
+.two-column {
+    width: 80%;
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    /* width: 15vw; */
+    min-width: 250px;
+    padding: 0;
+    margin-bottom: 1em;;
+  }
+
+.contrast-subcontainer {
+    padding: 0.3em;
+    margin: 0.25em 0;
+    padding-bottom: 1em;
+    border-bottom: 1px #ccc dotted;
+}
+
+
+/*  == SPECIAL ===================================================================== */
+
+/*  -- REVIEWS --------------------------------------------------------------------- */
+
+.review-details {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.review-rating {
+    display: flex;
+    padding-top: 4px;
+}
+
+.user_profile_details_div {
+    margin-bottom: 2em;
+}
+
+/*  -- INPUT ----------------------------------------------------------------------- */
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+    gap: 1em;
+}
+
+.input-container input {
+    width: 5em;
+    height: 2em;
+}

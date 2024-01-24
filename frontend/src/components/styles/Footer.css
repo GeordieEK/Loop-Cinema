@@ -1,0 +1,9 @@
+footer {
+  background-color: #000;
+  padding: 2em 6em;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5em;
+  border-top: #fff solid 1px;
+  /* margin: 6em 4em 2em 4em; */
+}

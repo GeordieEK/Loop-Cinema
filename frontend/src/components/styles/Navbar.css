@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000;
+  color: #fff;
+  align-items: center;
+}
+
+.nav-button {
+  font-size: larger;
+  padding: 0.3em 1em;
+  min-width: 6em;
+  margin: 0.5em;
+  background-color: #000;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.nav-button:hover {
+  background-color: #f25e0d;
+  border: 1px solid 001eff;
+  color: #fff;
+}
+
+nav button:active {
+  background-color: #fff;
+  color: #f25e0d;
+}

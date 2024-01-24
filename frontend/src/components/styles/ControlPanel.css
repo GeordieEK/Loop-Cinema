@@ -1,0 +1,29 @@
+.control_panel_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #001eff;
+    padding: 0.5em;
+    position: fixed;
+    bottom: 0;
+}
+
+.control_panel_button {
+    padding: 0.5em 1em;
+    min-width: 7em;
+    margin: 0.5em;
+    background-color: #001eff;
+    border: 1px solid white;
+    color: #fff;
+}
+
+.control_panel_button:hover {
+    background-color: #fff;
+    border: 1px solid white;
+    color: #001eff;
+    
+}
+
+.control_panel_button:active {
+    background-color: #ffe700;
+}
