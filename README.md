@@ -1,5 +1,8 @@
 # Loop Cinema Fullstack Website
 
+Full-stack website for a cinema, including an admin console to manage the site.
+Built with React, Node, Express and GraphQL.
+
 ### Instructions:
 
 From root directory:
